@@ -1,0 +1,60 @@
+.card {
+  width: clamp(300px, 100%, 500px);
+  padding: 20px;
+  border-radius: 4px;
+  background-color: var(--color-foreground);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card__controllers {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+
+.card__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  color: var(--color-white);
+  background-color: var(--color-gray-dark);
+}
+
+.card__id {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-gray);
+}
+
+.card__joke {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-block: 20px;
+  text-wrap: pretty;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.card__footer {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-gray);
+}
+
+.card__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card__link:hover {
+  text-decoration: underline;
+}
