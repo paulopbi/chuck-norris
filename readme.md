@@ -1,4 +1,4 @@
-The **Chuck Norris Joke** is a simple and elegant frontend application that fetches random [Chuck Norris Jokes](https://api.chucknorris.io/) from the _Chuck Norris API_ and displays them with a clean, _GNOME_ inspired UI/UX design.
+The **Chuck Norris** is a simple and elegant frontend application that fetches random Chuck Norris Jokes from the _[Chuck Norris API](https://api.chucknorris.io/)_ and displays them with a clean, _GNOME_ inspired UI/UX design.
 
 ## Demo
 
